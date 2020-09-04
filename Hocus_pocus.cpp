@@ -17,6 +17,10 @@ int main(){
     cout << "Enter the second number" <<endl;
     cin>> number2;
 
+    
+
+    cout<<elevate(number1,number2)<<endl;
+
 
     return 0;
 }
