@@ -1,5 +1,8 @@
 #include <iostream>
 #include <cmath>
+using namespace std;
+
+double elevate(double,int);
 
 using namespace std;
 
@@ -17,3 +20,10 @@ int main(){
 
     return 0;
 }
+
+double elevate(double number, int potencia){
+        double exponent= pow(number, potencia);
+
+        return exponent;
+}
+        
